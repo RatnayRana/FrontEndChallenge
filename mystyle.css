@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin-top: 20px;
+  /* box-sizing: border-box; */
+  background-color: hsl(0, 0%, 100%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  height: 240px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.container1 {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container1 h1 {
+  margin-right: 205px;
+}
+/* div{
+    border: solid 3px;
+    padding: 1em;
+    max-width: 75%;
+ } */
+.container1 p {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.container2 {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    width: 530px;
+    height: 140px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 5px;
+} 
+.container2 h2{
+    margin-bottom: 23px;
+    margin-right: 300px;
+    color: hsl(332, 51%, 32%);
+    padding: 5px;
+}
+.container2 ul{
+    margin-top: -14px;
+    padding-right:200px;
+}
+.Ingredients{
+    margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+  padding-bottom: 20px;
+}
+.Ingredients h1{
+    margin-bottom: 23px;
+    margin-right: 380px;
+    color: hsl(332, 51%, 32%);
+    padding: 5px;
+}
+.Ingredients ul{
+    margin-top: -14px;
+    padding-right:90px;
+}
+
+.instrustions{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instrustions h1{
+    margin-bottom: 20px;
+    margin-right: 380px;
+    color: hsl(332, 51%, 32%);
+    padding: 5px;
+}
+.instrustions ul{
+    margin-top: -14px;
+    padding-left:70px;
+    list-style:decimal;
+    
+    
+}
+.instrustions ul li{
+    padding: 8px;
+}
+.instrustions ul li::marker {
+    color: hsl(332, 51%, 32%);
+  }
+
+.Nutrition{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Nutrition h1{
+    margin-bottom: 20px;
+    margin-right: 430px;
+    color: hsl(332, 51%, 32%);
+    /* padding: 5px; */
+}
+.Nutrition p{
+    padding-left: 38px; 
+}
+table{
+    /* border: 1px solid #ddd; */
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+tr{
+    border-bottom: 1px solid #ddd;
+}
+td{
+    padding: 10px;
+}
